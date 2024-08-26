@@ -1,0 +1,11 @@
+{
+    "backend": {
+        "module_class": "MongoBackend",
+        "uri": "mongodb://localhost:27017/",
+        "filename": "default_data.json"
+    },
+    "taxii": {
+        "max_page_size": 100
+    }
+  }
+  

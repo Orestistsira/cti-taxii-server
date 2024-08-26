@@ -1,0 +1,35 @@
+{
+    "/discovery": {
+        "title": "A CACAO TAXII Server",
+        "description": "This TAXII Server contains a listing of cacao playbooks as STIX 2.1 objects",
+        "contact": "string containing contact information",
+        "default": "http://localhost:5000/cacao-taxii/",
+        "api_roots": [
+            "http://localhost:5000/cacao-taxii/"
+        ]
+    },
+    "cacao-taxii": {
+        "information": {
+            "title": "CACAO Playbook STIX 2.1 Collections",
+            "description": "A repo for cacao playbook STIX data.",
+            "versions": [
+                "application/taxii+json;version=2.1"
+            ],
+            "max_content_length": 9765625
+        },
+        "status": [],
+        "collections": [
+            {
+                "id": "365fed99-08fa-fdcd-a1b3-fb247eb41d01",
+                "title": "This data collection is for cacao playbook objects",
+                "can_read": true,
+                "can_write": true,
+                "media_types": [
+                    "application/stix+json;version=2.1"
+                ],
+                "objects": [],
+                "manifest": []
+            }
+        ]
+    }
+}
